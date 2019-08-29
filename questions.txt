@@ -70,11 +70,11 @@ Make that change and run the program again. To end any Python program, you can t
 
 
 Open main9.py. What is happening on line 12? 
-
+I think it's basically expressing "while ____ (red) is the answer, the following messages will come up if you input these other answers."
 What is the purpose of “count”? 
-
+This goes with line 22, which states "You guessed it in (0) tries." It changes the number depending on how many attempts you make.
 What is happening on line 22? 
-
+Line 22 is the message that appears depending on how many times it took you to get the answer right, and it is working with line 15.
 Run the program.
 
 
