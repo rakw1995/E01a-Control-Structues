@@ -12,59 +12,59 @@ What do you think the color = input() will do?
 I think this will make the text appear as a specific color.
 
 Run the program in the terminal and answer the question. Did the program do what you expected?
-
+No, it gave the option to type the color of your choosing.
 
 
 Open main3.py. Before running it, describe how this is different than main2.py. 
-
+This one includes three more lines with different variables
 What is happening on lines 11–14? 
-
+Using this code, you should be able to type color names, but it will only say that you are correct if you type 'red'
 Why are lines 12 and 14 indented? 
-
+Because they are variables and will change depending on the input
 Run the program and answer the question. What happens if you don’t capitalize Red? 
-
+It will say "sorry, try again."
 What does this tell you about "color"?
-
+In this example, I think "color" the way it is used here is ONLY the specific word and spelling used, and not any other variation of the same color. 
 
 
 Open main4.py. Before running it, describe how this is different than main2.py. 
-
+This version has multiple variables for the spelling and capitalization of the input message.
 What problem is this trying to solve? 
-
+This should stop an error message from popping up due to capitalization differences
 Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
-
+The program will respond with "sorry, try again"
 
 
 Open main5.py. What do you expect line 11 to do? 
-
+I think that line 11 means that if you type in lower case, the answer will be correct
 What problem is it trying to solve? 
-
+This should give a "correct" response when typing in lowercase
 Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “  RED  “ or “ red”)?
-
+It says "sorry, try again"
 
 
 Open main6.py. How is line 11 different than main5.py? 
-
+This one includes .strip() to line 11.
 What would you guess .strip() is doing? 
-
+My guess is that this will fix the problem with spacing by removing the accidental spaces
 Run the program and answer the question. Is there another way of writing “red” that will break this logic?
-
+I'm not sure if this is entirely correct, but if you add any sort of symbols like "." or "_" it will not work.
 
 
 Open main7.py. Before running this program, how do you expect this to be different than main6.py? 
-
+This gives a third variable. If you input a completely wrong answer, it will say "sorry, try again" but if you input the neighbor color "pink" it will respond with "close!"
 What is the purpose of line 11? 
-
+This should fix the spacing issue for ANY variable
 Run the program and answer the question.
 
 
 
 Open main8.py. What is the purpose of line 11? 
-
+I think this means you can run the program multiple times without an error message.
 Why are lines 12–19 indented? 
-
+They are conditions or variables.
 Run the program. What would happen if line 12 were moved before line 11 (and no longer indented)? 
-
+When you do that, the code will no longer work properly. All input text will show.
 Make that change and run the program again. To end any Python program, you can type ctrl-c.
 
 
